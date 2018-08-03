@@ -13,7 +13,7 @@ function getTodos(res) {
 };
 
 module.exports = function (app) {
-
+    /*
     // api ---------------------------------------------------------------------
     // get all todos
     app.get('/api/todos', function (req, res) {
@@ -49,7 +49,7 @@ module.exports = function (app) {
             getTodos(res);
         });
     });
-
+    */
     // application -------------------------------------------------------------
     app.get('*', function (req, res) {
         res.sendFile(__dirname + '/public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
